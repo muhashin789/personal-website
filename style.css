@@ -17,10 +17,6 @@ h2 {
     font-size: 40px;
 }
 
-.orange-highlight {
-    color: orange;
-}
-
 .half-width {
     width: 40%;
     float: left;
@@ -42,6 +38,19 @@ h2 {
 
 .top-banner h2 {
     color: #ec4c7a;
+    margin: 0;
+}
+
+.top-banner h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+
+}
+
+.top-banner p {
+    margin-bottom: 40px;
+    color: #707070;
 }
 
 section {
@@ -49,20 +58,28 @@ section {
 }
 
 .section-padding-top {
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .section-padding-bottom {
-    padding-bottom: 150px;
+    padding-bottom: 170px;
 }
 
 .link_button {
     text-decoration: none;
     background-image: linear-gradient(45deg, #ec5094, #ec4b72);
-    padding: 10px 30px;
+    padding: 10px 35px;
     border-radius: 5px;
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
+
+}
+
+.link_button:hover {
+    border: 1px solid #ec4b72;
+    color: #ec4b72;
+    transition: 0.4s all ease-in-out;
+    background: transparent;
 }
 
 .biography-area {
@@ -70,19 +87,19 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-
-
 }
 
 .biography-area img {
     width: 90%;
+}
 
+.biography-area p {
+    margin-bottom: 50px;
+    color: #707070;
 }
 
 .bio-bg-clr {
     background-color: rgb(247, 244, 244);
-
 }
 
 .work img {
@@ -124,7 +141,6 @@ section {
 
 .client-title span {
     padding: 50px 0;
-
 }
 
 .link {
@@ -142,11 +158,9 @@ section {
     font-weight: 400;
     font-size: 12px;
     line-height: 30px;
-
 }
 
 .link span {
-
     font-weight: 300;
     font-size: 14px;
 }
@@ -157,9 +171,48 @@ section {
     margin-top: -10px;
 }
 
+.services {
+    min-height: 700px;
+}
+
+.services-cat {
+    width: 45%;
+    float: left;
+    margin: 20px;
+}
+
+.service-box {
+    width: 100%;
+    border-radius: 10px;
+    display: inline-block;
+    height: 200px;
+    padding: 10px;
+    box-shadow: 6px 17px 35px -11px rgba(0, 0, 0, 0.47);
+}
+
+.service-box:hover {
+    background-image: linear-gradient(45deg, #ec5094, #ec4b72);
+    color: #fff;
+}
+
+.service-box h3,
+.service-box p {
+    text-align: center;
+
+}
+
+.service-box h3 {
+    padding-top: 30px;
+}
+
+.service-box p {
+    color: #707070;
+}
+
 footer {
     font-size: 12px;
     color: gray;
     text-align: center;
     padding-bottom: 50px;
+    display: block;
 }
