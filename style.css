@@ -53,6 +53,10 @@ h2 {
     color: #707070;
 }
 
+.top-banner-title {
+    padding-top: 110px;
+}
+
 section {
     height: 500px;
 }
@@ -96,6 +100,10 @@ section {
 .biography-area p {
     margin-bottom: 50px;
     color: #707070;
+}
+
+.biography-title {
+    padding-top: 110px;
 }
 
 .bio-bg-clr {
